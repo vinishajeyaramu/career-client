@@ -520,13 +520,13 @@ console.log(activeJobs);
 
                        
                         <div className="flex flex-nowrap gap-2 py-4 overflow-x-auto max-w-full">
-                          {item.job_technical_skills.slice(0, 5).map((skill, skillIndex) => (
+                          {item.job_technical_skills.slice(0, 3).map((skill, skillIndex) => (
                             <span
                               key={skillIndex}
                               className="text-red-500 bg-red-50 font-semibold rounded-full px-3 py-1  text-sm text-ellipsis overflow-hidden whitespace-nowrap min-w-[50px] max-w-[80px]"
                               title={skill} // Shows full text on hover
                             >
-                            {skill.length > 15 ? `${skill.slice(0, 15)}..` : skill}
+                            {skill.length > 10 ? `${skill.slice(0, 5)}..` : skill}
                             </span>
                           ))}
                           {item.job_technical_skills.length > 3 && (

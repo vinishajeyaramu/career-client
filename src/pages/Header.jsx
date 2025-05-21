@@ -10,23 +10,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      {/* Desktop Menu */}
-      {/* <ul className="hidden lg:flex items-center space-x-8 text-gray-700 font-semibold">
-        <li className="hover:text-red-500 cursor-pointer">Work</li>
-        <li className="hover:text-red-500 cursor-pointer">Services</li>
-        <li className="hover:text-red-500 cursor-pointer">Strategy</li>
-        <li className="hover:text-red-500 cursor-pointer">Careers</li>
-      </ul> */}
-
-      {/* Mobile Menu */}
-      {/* <div className="lg:hidden">
-        <ul className="flex space-x-4 text-gray-700">
-          <li className="hover:text-red-500 cursor-pointer">Work</li>
-          <li className="hover:text-red-500 cursor-pointer">Services</li>
-          <li className="hover:text-red-500 cursor-pointer">Strategy</li>
-          <li className="hover:text-red-500 cursor-pointer">Careers</li>
-        </ul>
-      </div> */}
+     
     </nav>
   );
 };
